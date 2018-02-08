@@ -1,0 +1,68 @@
+.experience{
+    margin-top: 20px;
+}
+
+.experience article{
+    background-color: #fafbfc;
+    padding: 3rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 2px 1px #c4c3c3;
+}
+
+.experience .svg-inline--fa {
+    color: #737373;
+    font-size: 2em;
+}
+
+.experience{
+    color: #636363;
+}
+
+.experience h5{
+    color: #69b2e2;
+}
+
+.experience .hr{
+   padding: 30px 0;
+    position: relative;
+}
+
+.experience .hr:after{
+    content: "";
+    width: 104%;
+    height: 1px;
+    background-color: #b9b7b7;
+    position: absolute;
+    bottom: 0;
+    right: -4%;
+
+}
+
+.experience .square .hr:last-of-type{
+    padding-bottom: 0;
+}
+
+.experience .square .hr:first-of-type{
+    padding-top: 0;
+}
+
+.experience .square .hr:last-of-type:after{
+    content: none;
+}
+
+.experience .interests h2{
+    margin-bottom: 40px;
+}
+
+.experience .interests .svg-inline--fa{
+    margin-right: 50px;
+    color: #38a4dd;
+}
+
+.experience .links{
+    padding: 20px 0;
+}
+
+.experience .interests .svg-inline--fa{
+    margin-bottom: 10px;
+}

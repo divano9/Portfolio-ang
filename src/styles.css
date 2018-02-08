@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.inactive{
+    overflow: hidden;
+}
+
+
+.shadow{
+    box-shadow: 1px 1px 4.75px 0.25px rgba(24,24,24, 0.25);
+}
